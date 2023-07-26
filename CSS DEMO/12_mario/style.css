@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	height: 700px;
+	float: left;
+	width: 100%;
+	background-image: url('wall1.jpg');
+	background-size: 100% 100%;
+}
+.mario{
+	height: 130px;
+	float: left;
+	width: 130px;
+}
+.mario img{
+	height: 100%;
+	width: 100%;
+	animation-name: mario;
+	animation-duration:10s;
+	position:relative;
+	top: 500px;
+	animation-delay: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: 5;
+}
+@keyframes mario{
+	0%{left:0px;}
+	10%{top: 500px;left:720%;}
+	20%{top: 450px;left:750%;}
+	30%{top: 400px;left:800%;}
+	40%{top: 350px;left:850%;}
+	50%{top: 300px;left:900%;}
+	60%{top: 250px;left:950%;}
+	70%{top: 200px;left:1000%;}
+	80%{top: 170px;left:1050%;}
+	90%{top: 170px;left:1100%;}
+	100%{top: 500px; left: 0px;}
+
+
+
+
+}

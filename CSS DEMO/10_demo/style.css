@@ -1,0 +1,345 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Main_frame{
+	height: 710px;
+	width: 100%;
+	background-color: black;
+	float: left;
+}
+
+/*first bar*/
+
+
+.slide_bar{
+	height: 60px;
+	width: 100%;
+	float: left;
+	background-color: white;
+	border-bottom: 1px solid lightgrey;
+
+}
+
+/*Slide 1*/
+.slide{
+	height: 50px;
+	width: 40%;
+	/*background-color: black;*/
+	margin-top: 5px;
+	float: left;
+}
+.slide button{
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	float: left;
+	background-color: white;
+	border: none;
+	margin-right: 5px;
+
+}
+.slide button i:hover{
+	color: blue;
+}
+.slide button i{
+	font-size: 22px;
+
+}
+.slide h3{
+	margin-top: 2px;
+	font-weight: normal;
+	/*font-family: verdana;*/
+	font-family: arial;
+	padding: 5px;
+
+}
+.slide h5{
+	margin-top: -3px;
+	font-weight: normal;
+	color: grey;
+	float: left;
+}
+
+/*slide 2*/
+
+.slide2{
+	height: 60px;
+	width: 50%;
+	float: left;
+	/*background-color: green;*/
+}
+.cont{
+	margin-left: 100px;
+}
+.button1{
+	padding: 10px;
+	font-size:25px;
+	border: none;
+	margin-top: 7px;
+	float: left;
+	margin-left: 5px;
+	color: black;
+	font-weight: normal;
+	font-family: arial;
+	background-color: white;
+}
+.button1:hover{
+	border-bottom: 5px solid #FF1493;
+	color: #FF1493;
+	border-radius: 1.5px;
+	text-shadow: 1px 1px black;
+
+}
+
+/*slide 3*/
+.slide3{
+	height:60px;
+	width: 10%;
+	background-color: white;
+	float: left;
+
+}
+.icon2{
+	float: left;
+}
+
+.icon2 button{
+	height: 50px;
+	width: 50px;
+	margin-left: 40px;
+	float: left;
+	border: none;
+	background-color: white;
+	margin-top: 6px;
+	
+}
+.icon2 img{
+	height: 30px;
+	width: 30px;
+
+	
+}
+.icon2 img:hover{
+	box-shadow: 0px 0px 5px 1px black;
+}
+.profile{
+	float: left;
+	height: 40px;
+	width: 40px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin-left: 5px;
+	margin-top: 9px;
+
+
+}
+.profile img{
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+	margin-left: 0px;
+	margin-top: 1px;
+
+}
+
+/*second bar*/
+
+.slide_bar2{
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	float: left;
+	border-bottom: 1px solid lightgrey;
+}
+.return{
+	height: 40px;
+	width: 100px;
+	background-color: rgba(220, 220, 220, 0.5);
+	float: left;
+	margin-top: 10px;
+	margin-left: 60px;
+	border: none;
+	border-radius: 5px;
+}
+.return a{
+	color:rgba(190, 190, 190, 1.0); 
+	text-decoration: none;
+}
+.return:hover
+{
+	background-color: blue;
+	color: white;
+}
+.mail{
+	height: 50pxx;
+	width: 50px;
+	background-color: white;
+	border: none;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.mail i{
+	font-size: 25px;
+	color: grey;
+}
+.mail i:hover{
+	color: blue;
+}
+.input{
+	float: left;
+	height: 40px;
+	width: 150px;
+	margin-left: 220px;
+	margin-top: 10px;
+
+}
+.input input{
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	font-size: 20px;
+	border: none;
+	font-family: Arial;
+	color: black;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+}
+.setting{
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	background-color: white;
+	border: none;
+	margin-top: 5px;
+	float: right;
+	margin-right: 10px;
+
+}
+.setting i{
+	color: black;
+	font-size: 25px;
+}
+.setting i:hover{
+	color: blue;
+}
+/*divsion1*/
+
+.container{
+	height: 588px;
+	width: 40%;
+	background-color: white;
+	float: left;
+	border-right: 1px solid black;
+	overflow-y: scroll;
+}
+
+.all{
+	height: 50px;
+	width: 200px;
+	/*background-color: red;*/
+}
+.f{
+	height: 50px;
+	width: 100%;
+}
+.f input{
+	height: 15px;
+	width: 15px;
+	float: left;
+}
+.span{
+	float: left;
+	height: 15px;
+	width: 15px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.span1{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.span1 i{
+font-size: 25px;
+}
+.all h3{
+	font-weight: normal;
+	float: left;
+	margin-top: 16px;
+	margin-left: 15px;
+}
+.g{
+	height: 50px;
+	width: 100%;
+	float: left;
+	/*background-color: black;*/
+}
+.g select{
+	height: 40px;
+	width: 160px;
+	margin-top: 10px;
+	border: none;
+	font-family: arial;
+	background-color: white;
+	margin-left: 40px;
+	float: left;
+}
+.h{
+	float: left;
+	height: 100px;
+	width: 1000px;
+
+	background-color: yellow;
+}
+.span3{
+	float: left;
+	height: 15px;
+	width: 15px;
+	margin-top: 50px;
+	margin-left: 15px;
+}
+.span4{
+	float: left;
+	margin-left: 25px;
+}
+.span4 h4{
+	float: left;
+		margin-top: 49px;
+	font-weight: normal;
+	font-family: arial;
+}
+.table{
+	float: left;
+	height: 100%;
+	width: 1000px;
+}
+.span4{
+	float: left;
+	height: 15px;
+	width: 15px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.span5{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.span6{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.span6 i{
+	font-size: 25px;
+}
+/*division2*/
+
+.container2{
+	height: 588px;
+	width: 59.90%;
+	float: left;
+	background-color: white;
+}

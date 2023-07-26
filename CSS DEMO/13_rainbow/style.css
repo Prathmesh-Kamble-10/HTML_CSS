@@ -1,0 +1,21 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.rainbow{
+	height: 700px;
+	float: left;
+	width: 100%;
+	animation-name: rainbow;
+	animation-duration: 5s;
+	animation-iteration-count:7;
+	background-image: radial-gradient(red,green,blue,orange,white,black,purple,yellow,darkblue,silver);
+}
+@keyframes rainbow{
+	0%{background-image: radial-gradient(red,green,blue,orange,white,black,purple,yellow,darkblue,silver);}
+	25%{ background-image: radial-gradient(silver,darkblue,yellow,purple,black,white,orange,blue,green,red);}
+	50%{ background-image: radial-gradient(red,orange,yellow,green,blue,indigo,violet,white); }
+	75%{ background-image: radial-gradient(black,white,red,black,white,red,black,white,red,black);}
+	100%{ background-image: radial-gradient(turquoise,green,purple,royalblue);}
+
+}

@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.frame{
+	height: 700px;
+	width: 100%;
+	background-image: url('back.jpg');
+	background-size: 100% 100%;
+	float: left;
+}
+.cycle{
+	height: 200px;
+	width: 200px;
+	float: left;
+	position: relative;
+	background-image: url('cycle2.gif');
+	background-size: 100% 100%;
+	position: relative;
+	animation-name: cycle;
+	animation-duration: 10s;
+	top: 400px;
+	animation-delay: 2s;
+	animation-iteration-count: 5;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+@keyframes cycle{
+	0%{left: 0px;}
+	10%{left: 5%;}
+	20%{left: 10%;}
+	30%{left: 20%;}
+	40%{left: 30%;}
+	50%{left: 40%;}
+	60%{left: 50%;}
+	70%{left: 65%;}
+	80%{left: 70%;}
+	90%{left: 75%;}
+	100%{left:75px;}
+}
